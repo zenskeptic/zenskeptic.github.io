@@ -1,0 +1,130 @@
+name: Iskander Zemmouri
+
+contact:
+  phone: +33 6 52 25 84 74
+  email: iskander.zemmouri@mailbox.org
+  location: Rennes, FR
+
+languages:
+  - idiom: English
+    quality: professional
+  - idiom: French
+    quality: native
+
+education:
+  - degree: MSc in Cyber Security
+    time: 2016-2018
+    location: Rennes
+    university: University of Rennes 1
+  - degree: BSc in Computer Science
+    time: 2013-2016
+    location: Rennes
+    university: University of Rennes 1
+
+skills:
+  - category: DevOps
+    skill:
+      - Git
+      - LXD
+      - Docker
+      - TravisCI
+      - Ansible
+      - Packer
+      - Kubernetes
+  - category: Unix
+    skill:
+      - Debian
+      - Ubuntu
+      - ArchLinux
+      - AlpineLinux
+      - VoidLinux
+      - FreeBSD
+      - Gentoo
+  - category: Programming
+    skill:
+      - C
+      - C++
+      - Bash
+      - Python
+      - Ruby
+      - Lua
+  - category: Technical
+    skill:
+      - Linux Administration
+      - Linux Networking
+      - KVM Virtualization
+      - Ansible Orchestration
+      - Shell Scripting
+  - category: Pentest
+    skill:
+      - Python Pwntools
+      - Radare2
+      - Pwndbg/Peda
+      - Nmap
+      - Metasploit
+      - W3af
+      - Fuff
+      - Iodine
+      - Bettercap
+      - Hashcat
+      - Tcpdump/Tshark
+      - Aircrack-ng
+
+profile: |
+  Decade long Unix lover and user, I spend my professional time as well as my personal
+  time improving the deployability and availability of systems through automation, be it
+  for a client's sake or for my own. My other main interest is computer security, more
+  specifically, bug hunting and exploitation in source code or closed-source binaries.
+
+experience:
+  - role: DevOps Engineer
+    time: 04/2019 - 01/2022
+    company: Freelance
+    location: Remote
+    details:
+      - point: conception of LXD profiles to reliably and reproducibly deploy rails-based webapps
+      - point: >
+          conception of libvirt domains and scripts to reliably contain heterogenous systems and
+          networks running on different emulated cpu architectures (arm32, arm64, mips32) with Qemu
+      - point: maintenance of operational security and availability of rails-based webapps
+      - point: >
+          automation of infrastructure deployment for a complex emulated network of heterogenous
+          machines with the objective to serve as a pentesting lab environment
+      - point: setup of log management and monitoring of rails-based webapps
+      - point: >
+          setup of customized openvpn and netfilter configurations to identify traffic coming
+          from different applications and route accordingly through different Linux routing tables
+    technologies_used: |
+      Git, LXD, Docker, Systemd, Qemu, Libvirt, Bash, Nginx, OpenVPN, Iproute2
+  - role: Cyber Security Intern Consultant
+    time: 04/2018 - 11/2018
+    company: AeBS
+    location: Remote
+    details:
+      - point: administration of a Nagios platform
+      - point: administration of a set of Linux testing machines
+      - point: testing subnet architecture review
+      - point: setup of a 802.1X FreeRadius network authentication server
+      - point: setup of Snort IDS/IPS and Prelude SIEM on a testing subnet
+      - point: network traffic and policy analysis
+    technologies_used: |
+      Prelude SIEM, Snort IDS/IPS, Git, Ansible, Nagios, Ansible, OpenVAS, Samhain, FreeRadius
+
+projects:
+  - title: Root-Me
+    link: https://www.root-me.org/amaenaide?inc=score&lang=en
+    details: |
+      Playing a hacking-challenges platform: involving mainly code review and vulnerability
+      research in C, C++ and x86/amd64/arm32/mips32 assembly, the reverse-engineering of
+      closed-source binaries, and the python-script based bug exploitation.
+  - title: BroKern
+    link:
+    details: |
+      Intentionally vulnerable Unix-like toy-kernel runnable on real x86 hardware, implementing
+      physical and virtual memory management, process management, a console driver and a minimal
+      user-space interface (perhaps a VFS in the future).
+  - title: 42sh
+    link: #
+    details: |
+      Bash 4.2 shell clone that implements full bash parsing, terminal management, line editing,
+      command interpretation and shell builtins.

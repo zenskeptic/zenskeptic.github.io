@@ -1,0 +1,27 @@
+---
+layout: resume
+title: Resume
+permalink: /resume
+---
+
+<div class="container">
+  {% include resume/header.html %}
+
+  <div class="contact-container">
+      {% include resume/contact.html %}
+  </div>
+
+  <div class="container-block">
+    <div class="sidebar">
+      {% include resume/languages.html %}
+      {% include resume/skills.html %}
+    </div>
+
+    <div class="main">
+      {% include resume/profile.html %}
+      {% include resume/experience.html %}
+      {% include resume/projects.html %}
+      {% include resume/education.html %}
+    </div>
+  </div>
+</div>

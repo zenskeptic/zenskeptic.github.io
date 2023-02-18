@@ -1,0 +1,52 @@
+{% assign contact = site.data.data.contact %}
+{% if contact %}
+<section class="contact">
+    {% if contact.phone %}
+        <div class="contact-item">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <a href="#">
+                {{contact.phone}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.email %}
+        <div class="contact-item">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <a href="#">
+                {{contact.email}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.location %}
+        <div class="contact-item">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <a href="#">
+                {{contact.location}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.github %}
+        <div class="contact-item">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <a href="https://github.com/{{contact.github}}">
+                {{contact.github}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.rootme %}
+        <div class="contact-item">
+            <span class="icon-root-me">
+                <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+            </span>
+            
+            <a href="https://github.com/{{contact.github}}">
+                {{contact.rootme}}
+            </a>
+        </div>
+    {% endif %}
+</section>
+{% endif %}
